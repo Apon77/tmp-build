@@ -11,7 +11,7 @@ else
 echo
 echo "Installing Fire Fox Send";
 echo
-wget https://raw.githubusercontent.com/usmanmughalji/build-scripts/master/ffsend
+wget https://raw.githubusercontent.com/usmanmughalji/compile-kernel/master/ffsend
 chmod a+x ./ffsend
 sudo mv ./ffsend /usr/local/bin/
 
