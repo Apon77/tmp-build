@@ -12,7 +12,7 @@ cd kernel
 rm -rf out
 
 make O=out clean && make O=out mrproper
-make O=out ARCH=arm64 lineageos_santoni_defconfig
+make O=out ARCH=arm64 santoni_defconfig
 
 make -j$(nproc --all) O=out \
                       ARCH=arm64 \
